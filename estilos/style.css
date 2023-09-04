@@ -8,10 +8,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+body {
     width: 100vw;
     height: 100vh;
     background-color: #394030;
+    position: relative;
 }
 
 main {
@@ -22,6 +23,10 @@ main {
     margin: auto;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.308);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 section#imagem {
@@ -30,16 +35,34 @@ section#imagem {
     border-top-right-radius: 20px;
     background-image: url(../imagens/verde-escuro.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 
-section#conteudo {
-    padding: 10px;
+section > p {
+    font-size: 0.8em;
+    margin: auto;
 }
 
-h1, p, input, a {
-    padding: 8px;
+span {
+    color: white;
+}
+
+.email-sen {
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    
+}
+
+section > form > p {
+    width: 200px;
+    margin: 6px;
+    margin: auto;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #394030;
 }
 
 main > section > h1 {
@@ -48,5 +71,31 @@ main > section > h1 {
 
 .bloco {
     display: block;
+    text-decoration: none;
+    text-align: center;
 }
+
+/* main {
+    height: 100vh;
+    position: relative;
+}
+
+section#telefone {
+    height: 627px;
+    width: 311px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../imagens/frame-iphone.png") no-repeat;
+} 
+
+<span class="material-symbols-outlined">
+alternate_email
+</span>
+
+
+
+*/
+
 
