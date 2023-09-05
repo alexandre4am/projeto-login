@@ -2,6 +2,14 @@
 
 /* Para celulares */
 
+:root {
+    --cor01: #D7D9D8;
+    --cor02: #97A68D;
+    --cor03: #7E8C74;
+    --cor04: #67735F;
+    --cor05: #394030;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,16 +19,14 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #394030;
+    background-color: var(--cor05);
     position: relative;
 }
 
 main {
-    width: 250px;
-    height: 500px;
+    width: 260px;
+    height: 520px;
     background-color: white;
-    margin-top: 50px;
-    margin: auto;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.308);
     position: absolute;
@@ -30,50 +36,110 @@ main {
 }
 
 section#imagem {
-    height: 40vh;
+    height: 33vh;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-image: url(../imagens/verde-escuro.jpg);
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
+section > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
 section > p {
+    
+    padding: 8px;
     font-size: 0.8em;
-    margin: auto;
+    text-align: center;
 }
 
 span {
     color: white;
-}
-
-.email-sen {
-    width: 160px;
-    border: none;
-    border-radius: 5px;
-    padding: 6px;
+    font-weight: lighter;
+    
     
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 84
+  }
+
 section > form > p {
-    width: 200px;
-    margin: 6px;
+    width: 230px;
     margin: auto;
-    padding: 4px;
-    border-radius: 5px;
-    background-color: #394030;
+    margin-bottom: 4px;
+    padding: 2px;
+    border-radius: 7px;
+    text-align: right;
+    background-color: var(--cor05);
+    
 }
 
-main > section > h1 {
-    text-align: center;
+
+.email-sen {
+    width: 180px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+
+    
 }
 
-.bloco {
+input#entrar {
+    width: 235px;
+    border-radius: 7px;
+    color: white;
+    border: 0px;
+    background-color: var(--cor04);
     display: block;
-    text-decoration: none;
     text-align: center;
+    margin: auto;
+    padding: 13px;
 }
+
+input#entrar:hover {
+    background-color: var(--cor02);
+}
+
+form > a {
+    width: 210px;
+    border-radius: 7px;
+    border: 2px solid var(--cor04);
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 4px;
+    padding: 10px;
+    color: #394030;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+form > a:hover {
+    background-color: var(--cor01);
+}
+
+form > a::after {
+    content: ' ✉';
+}
+
+
+
+
+
+
+
+
+
+
 
 /* main {
     height: 100vh;
