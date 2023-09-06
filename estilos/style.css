@@ -54,14 +54,28 @@ section > p {
     
     padding: 8px;
     font-size: 0.8em;
-    text-align: center;
+}
+
+
+
+section > form > p {
+    width: 230px;
+    margin: auto;
+    margin-bottom: 4px;
+    padding: 2px;
+    border-radius: 7px;
+    text-align: right;
+    background-color: var(--cor05);
+    display: flex;
+    
 }
 
 span {
     color: white;
     font-weight: lighter;
-    
-    
+    padding-top: 5px;
+    padding-right: 5px;
+    flex: 1;    
 }
 
 .material-symbols-outlined {
@@ -72,25 +86,12 @@ span {
     'opsz' 84
   }
 
-section > form > p {
-    width: 230px;
-    margin: auto;
-    margin-bottom: 4px;
-    padding: 2px;
-    border-radius: 7px;
-    text-align: right;
-    background-color: var(--cor05);
-    
-}
-
-
 .email-sen {
     width: 180px;
     border: none;
     border-radius: 7px;
     padding: 10px;
-
-    
+    flex: 7;
 }
 
 input#entrar {
