@@ -89,6 +89,11 @@ span {
     border-radius: 7px;
     padding: 10px;
     flex: 12;
+    background-color: var(--cor01);
+}
+
+.email-sen:focus {
+    background-color: whitesmoke;
 }
 
 input#entrar {

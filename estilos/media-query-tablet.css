@@ -35,6 +35,11 @@ Grandes telas: acima de 1200px
     section#conteudo {
        flex: 3;     
     }
+    
+    section > p {
+        margin-bottom: -10px;
+        margin-top: -10px;
+    }
 
     form {
         display: flex;
