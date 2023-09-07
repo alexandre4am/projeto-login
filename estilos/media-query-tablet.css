@@ -10,7 +10,7 @@ Grandes telas: acima de 1200px
 
 /* Para telas tablet */
 
-@media screen and (min-width: 768px) and (max-width: 800px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, var(--cor03), var(--cor05) );
         display: flex;
@@ -22,7 +22,6 @@ Grandes telas: acima de 1200px
         height: 300px;
         display: flex;
         align-items: center;
-        
     }
 
     section#imagem {
@@ -35,7 +34,6 @@ Grandes telas: acima de 1200px
 
     section#conteudo {
        flex: 3;     
-          
     }
 
     form {
@@ -49,15 +47,11 @@ Grandes telas: acima de 1200px
     section > form > p {
         width: 100%;
         margin: 10px;
-        
         margin-bottom: -5px;
         max-width: 992px;
-        
         padding: 2px;
         border-radius: 7px;
         text-align: right;
-
-       
     }
     
     span {
@@ -73,7 +67,6 @@ Grandes telas: acima de 1200px
         flex: 10;
     }
     
-
     input#entrar {
         width: 101%;
         border-radius: 7px;
@@ -84,7 +77,6 @@ Grandes telas: acima de 1200px
         margin-bottom: -5px;
         text-align: center;
         padding: 13px;
-        
     }
    
     form > a {
@@ -93,97 +85,9 @@ Grandes telas: acima de 1200px
         border: 2px solid var(--cor04);
         margin: 10px 0;
         text-align: center;
-        
-        
         color: #394030;
         text-decoration: none;
         font-size: 0.8em;
     }
 }
 
-/* Para telas maiores que PC */
-
-@media screen and (min-width: 1200px) {
-    main {
-        width: 90vw;
-        height: 500px;
-        display: flex;
-        align-items: center;
-        
-    }
-
-    section#imagem {
-        flex: 2;
-        height: 300px;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-top-right-radius: 0px;
-    }
-
-    section#conteudo {
-       flex: 3;     
-          
-    }
-
-    form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 10px;
-    }
-
-    section > form > p {
-        width: 100%;
-        margin: 10px;
-        
-        margin-bottom: -5px;
-        max-width: 992px;
-        
-        padding: 2px;
-        border-radius: 7px;
-        text-align: right;
-
-       
-    }
-    
-    span {
-        flex: 1;
-        padding-right: 9px;
-    }
-
-    .email-sen {
-        max-width: 992px;
-        border: none;
-        border-radius: 7px;
-        padding: 10px;
-        flex: 10;
-    }
-    
-
-    input#entrar {
-        width: 101%;
-        border-radius: 7px;
-        color: white;
-        border: 0px;
-        background-color: var(--cor04);
-        margin: 10px 0;
-        margin-bottom: -5px;
-        text-align: center;
-        padding: 13px;
-        
-    }
-   
-    form > a {
-        width: 95%;
-        border-radius: 7px;
-        border: 2px solid var(--cor04);
-        margin: 10px 0;
-        text-align: center;
-        
-        
-        color: #394030;
-        text-decoration: none;
-        font-size: 0.8em;
-    }
-}
