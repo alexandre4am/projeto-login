@@ -59,7 +59,7 @@ section > p {
 
 
 section > form > p {
-    width: 230px;
+    max-width: 230px;
     margin: auto;
     margin-bottom: 4px;
     padding: 2px;
@@ -75,7 +75,7 @@ span {
     font-weight: lighter;
     padding-top: 5px;
     padding-right: 5px;
-    flex: 1;    
+    flex: 2;    
 }
 
 .material-symbols-outlined {
@@ -87,12 +87,14 @@ span {
   }
 
 .email-sen {
-    width: 180px;
+    max-width: 992px;
     border: none;
     border-radius: 7px;
     padding: 10px;
-    flex: 7;
+    flex: 12;
 }
+
+
 
 input#entrar {
     width: 235px;

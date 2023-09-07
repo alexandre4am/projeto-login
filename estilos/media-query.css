@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* Para telas tablet e pc  */
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, var(--cor03), var(--cor05) );
@@ -24,39 +26,69 @@
     }
 
     section#conteudo {
-       flex: 3;
-       display: flex; /* Adicione esta linha */
-        flex-direction: column; /* Empilhe elementos verticalmente */
-        justify-content: space-between; /* Espaçamento igual entre os elementos */
-        align-items: center; /* Centralizar elementos horizontalmente */
-        
+       flex: 3;     
+          
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
     }
 
     section > form > p {
-        flex: 1;
-        max-width: 340px;
+        width: 100%;
+        margin: 10px;
         
-        margin-bottom: 4px;
+        margin-bottom: -5px;
+        max-width: 992px;
+        
         padding: 2px;
         border-radius: 7px;
         text-align: right;
-        
-        
-   
 
-
+       
     }
-        
+    
+    span {
+        flex: 1;
+        padding-right: 9px;
+    }
+
+    .email-sen {
+        max-width: 992px;
+        border: none;
+        border-radius: 7px;
+        padding: 10px;
+        flex: 10;
+    }
+    
+
     input#entrar {
-        width: 235px;
+        width: 101%;
         border-radius: 7px;
         color: white;
         border: 0px;
         background-color: var(--cor04);
-        display: block;
+        margin: 10px 0;
+        margin-bottom: -5px;
         text-align: center;
-        margin: auto;
         padding: 13px;
+        
     }
    
+    form > a {
+        width: 95%;
+        border-radius: 7px;
+        border: 2px solid var(--cor04);
+        margin: 10px 0;
+        text-align: center;
+        
+        
+        color: #394030;
+        text-decoration: none;
+        font-size: 0.8em;
+    }
 }
