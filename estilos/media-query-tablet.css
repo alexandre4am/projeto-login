@@ -10,7 +10,28 @@ Grandes telas: acima de 1200px
 
 /* Para telas tablet */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, var(--cor03), var(--cor05) );
         display: flex;
@@ -94,5 +115,5 @@ Grandes telas: acima de 1200px
         text-decoration: none;
         font-size: 0.8em;
     }
-}
+} */
 

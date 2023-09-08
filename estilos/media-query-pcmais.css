@@ -2,7 +2,31 @@
 
 /* Para telas maiores que PC */
 
-@media screen and (min-width: 992px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, var(--cor03), var(--cor05) );
         display: flex;
@@ -97,4 +121,4 @@
         text-decoration: none;
         font-size: 0.8em;
     }
-}
+} */

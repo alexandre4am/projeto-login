@@ -1,7 +1,39 @@
 @charset "utf-8";
 
-/* Para celulares */
+/* 
+Paleta de cores 
 
+Verde: #49a09d
+Lilás: #5f2c82 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Para celulares */
+/* 
 :root {
     --cor01: #D7D9D8;
     --cor02: #97A68D;
@@ -134,39 +166,6 @@ form > a:hover {
 
 form > a::after {
     content: ' ✉';
-}
-
-
-
-
-
-
-
-
-
-
-
-/* main {
-    height: 100vh;
-    position: relative;
-}
-
-section#telefone {
-    height: 627px;
-    width: 311px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: url("../imagens/frame-iphone.png") no-repeat;
-} 
-
-<span class="material-symbols-outlined">
-alternate_email
-</span>
-
-
-
-*/
+} */
 
 
